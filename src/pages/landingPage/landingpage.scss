@@ -1,0 +1,89 @@
+.landing-page-decor-top, 
+.landing-page-decor-bottom-left,
+.landing-page-decor-bottom-right{
+    position: absolute;
+    z-index: -2;
+}
+.landing-page-decor-top {
+    top: 0;
+}
+.landing-page-decor-bottom-left, .landing-page-decor-bottom-right {
+    bottom: 0;
+}
+.landing-page-decor-bottom-right {
+    right: 0;
+}
+.authentication {
+    background-position: center;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-green {
+    border: none !important;
+    font-weight: bold !important;
+    background-color: #2FC4B2 !important;
+    color: white;
+}
+.btn-login, .btn-register {
+    width: 100px !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+.btn-modal-register, .btn-register {
+    background-color: #2FC4B2 !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+.btn-register {
+    color: white;
+    margin-right: 10px;
+}
+.btn-login {
+    background-color: #CCCCCC!important;
+    color: #000000 !important;
+}
+.landingpage-image {
+    height: 80vh;
+}
+.landing-page-logo {
+    height: 25vh;
+}
+.btn:active, input:active, textarea:active,
+.btn:focus, input:focus, textarea:focus,
+.btn:focus:active, input:focus:active, textarea:focus:active  {
+    background-image:none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+input, textarea {
+    background-color: #cfcfcf !important;
+    border : 2px solid #2FC4B2 !important;
+}
+.modal-content {
+    width:100% !important;
+    border: none;
+}
+.modal-header {
+    border-bottom: none !important;
+}
+.modal-title {
+    color : #2FC4B2 !important;
+    font-weight: 900 !important;
+}
+.modal-link {
+    text-decoration: none !important;
+    color: #000;
+    font-weight: bold;
+    margin-left:2px;
+    cursor: pointer !important;
+}
+.modal-link:hover {
+    color: #2FC4B2;
+}

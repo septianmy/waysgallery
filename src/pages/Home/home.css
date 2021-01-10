@@ -1,0 +1,14 @@
+.home .home-content {
+    margin-top: 50px;
+}
+.home .post-image {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.home .img-post-wrapper {
+    height: 300px;
+    position:relative;
+}

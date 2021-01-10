@@ -1,0 +1,58 @@
+.drop-files-post {
+    background-image: url("../../assets/icons/cloud.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:2px dashed #CCC;
+    height: 370px;
+}
+.drop-files-arts {
+    border:2px dashed #CCC;
+    height: 370px;
+}
+.drop-files-profile {
+    background-image: url("../../assets/icons/camera.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:3px dashed #CCC;
+    height: 200px;
+    width:200px;
+    border-radius: 200px;
+    position: relative;
+}
+.drop-files-profile .img-profile-preview {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 195px;
+}
+.drop-files-project {
+    background-image: url("../../assets/icons/add-file.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:3px dashed #CCC;
+    height: 100px;
+}
+.drop-files-post, .drop-files-arts, .drop-files-profile, .drop-files-project  {
+    cursor: pointer;
+}
+.drop-files-post:hover, .drop-files-arts:hover, .drop-files-profile:hover, .drop-files-project:hover  {
+    border-color: #2FC4B2;
+}
+.drop-files-post:active, .drop-files-post:focus,
+.drop-files-arts:active, .drop-files-arts:focus,
+.drop-files-profile:active, .drop-files-profile:focus,
+.drop-files-project:active,.drop-files-project:focus  {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.browse-file {
+    margin-bottom: 30px;
+}
+.textarea {
+    min-height: 250px;
+}
+.green {
+    font-weight: bold;
+    color: #2FC4B2 ;
+}

@@ -1,0 +1,35 @@
+/* Dropdown Style */
+.img-profile {
+    border-radius: 60px;
+    height: 60px;
+    width:60px;
+    object-fit: cover;
+    margin-top:20px;
+}
+
+.dropdown-menu {
+    width: 250px;
+    margin-top: 30px !important;
+    border: 1px solid #ccc;
+}
+
+.dropdownmenu-arrow {
+    position: absolute;
+    right: 0;
+    top:-20px;
+    z-index:-2;
+}
+
+.dropdown-item {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.dropdown-icon {
+    margin-right: 30px;
+    height: 30px;
+}
+
+.profile-menu a:hover {
+    text-decoration: none !important;
+}

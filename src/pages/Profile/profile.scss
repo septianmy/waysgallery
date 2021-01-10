@@ -1,0 +1,55 @@
+.profile-container {
+    position: relative;
+    margin-top: 50px !important;
+}
+.green-attribute {
+    position: absolute;
+    background-color: #2FC4B2;
+    width:307px;
+    height: 400px;
+    border-radius: 5px;
+    right:-73px;
+    top:-50px;
+}
+.post-container {
+    border-radius: 5px;
+    background-color: #CCC;
+    height:484px;
+    padding:20px !important;
+}
+
+.post-image {
+    object-fit: cover;
+    width: 100%;
+    height: 444px;
+}
+
+.greeting, .username {
+    font-weight: bold;
+}
+
+.wrapper-img {
+    display: flex;
+    flex: wrap;
+}
+
+.wrapper-img img {
+   position: relative;
+   width:100%;
+   object-fit: cover;
+}
+
+.wrapper-art {
+    position: relative;
+}
+.image-art {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile .avatar {
+    height:120px;
+    width:120px;
+    border-radius: 120px;
+}
